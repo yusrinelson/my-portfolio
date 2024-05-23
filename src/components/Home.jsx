@@ -60,7 +60,7 @@ const Home = () => {
 
           <div className="flex flex-wrap items-center justify-center">
             <Link
-              to="portfolio"
+              to="profile"
               smooth
               duration={500}
               offset={-80}
@@ -90,11 +90,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div >
           <img
             src={heroImage}
             alt="profile"
-            className="mx-auto mb-10 w-1/2 rounded-full md:w-[300px]"
+            className="mx-auto mb-10 w-1/2 rounded-full md:w-[300px] border-2 border-cyan-600"
           />
         </div>
       </div>
