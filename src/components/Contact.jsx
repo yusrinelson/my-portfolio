@@ -2,7 +2,7 @@ import { layout } from "./style";
 
 const Contact = () => {
   return (
-    <div name="contact" className={`${layout.sectionBtoG} p-4 text-white pb-1`}>
+    <div name="contact" className={`${layout.sectionBtoG} p-4 text-white`}>
       <div className={`${layout.sectionDisplay} p-4`}>
         <div className="pb-8">
         <p className="text-gray-400">Get in Touch</p>
@@ -30,15 +30,15 @@ const Contact = () => {
             />
              <input
               type="text"
-              name="company"
-              placeholder="company name"
+              name="subject"
+              placeholder="subject"
               required
               className={layout.inputStyle}
             />
             <textarea
               name="message"
               placeholder="enter your message"
-              rows="10"
+              rows="7"
               required
               className={layout.inputStyle}
             ></textarea>
@@ -53,7 +53,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="w-full border-b-[1px] border-gray-500"/>
-      <div className="text-center py-2 text-[10px]"><p>Copyright &#169; 2024 Yusri Nelson, All Rights Reserved.</p></div>
+      <div className="text-center py-2 text-[12px]"><p>Copyright &#169; 2024 Yusri Nelson, All Rights Reserved.</p></div>
     </div>
   );
 };

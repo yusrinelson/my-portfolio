@@ -45,7 +45,7 @@ const Home = () => {
           <h2 className="text-center text-4xl font-bold tracking-wider text-white sm:text-5xl md:text-start">
             Yusri Nelson
           </h2>
-          <h4 className="text-center text-2xl font-bold tracking-wider text-white sm:text-4xl md:text-start">
+          <h4 className="text-center text-2xl font-bold tracking-wider text-cyan-500 sm:text-4xl md:text-start">
             Junior Web Developer
           </h4>
           <p className="max-w-md py-4 text-gray-500 ">
