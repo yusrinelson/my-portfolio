@@ -60,7 +60,7 @@ const Home = () => {
 
           <div className="flex flex-wrap items-center justify-center">
             <Link
-              to="profile"
+              to="projects"
               smooth
               duration={500}
               offset={-80}
