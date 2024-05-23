@@ -1,16 +1,54 @@
 import heroImage from "../assets/heroimage.jpg";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
+import { layout } from "./style";
 
 const Home = () => {
+  const links = [
+    {
+      id: 1,
+      child: <FaLinkedin size={30} />,
+      href: "https://www.linkedin.com/in/yusri-nelson/",
+      style: "rounded-tr-md",
+    },
+    {
+      id: 2,
+      child: <FaGithub size={30} />,
+      href: "https://github.com/yusrinelson",
+    },
+    {
+      id: 3,
+      child: <HiOutlineMail size={30} />,
+      href: "mailto:yusrinelson17@gmail.com",
+    },
+    {
+      id: 4,
+      child: <BsFillPersonLinesFill size={30} />,
+      href: "/",
+      style: "rounded-br-md",
+      downlaod: true,
+    },
+  ];
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="w-full bg-gradient-to-b from-black via-black to-gray-800 pb-20 pt-[150px]"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col-reverse items-center justify-center h-full px-4 md:flex-row ">
-        <div className="flex flex-col flex-1 justify-center h-full">
-          <h2 className="text-4xl sm:text-6xl font-bold text-white">Im a Web Developer</h2>
-          <p className="text-gray-500 py-4 max-w-md">
+      <div className={`${layout.sectionDisplay} flex-col-reverse md:flex-row`}>
+        <div className="flex h-full flex-1 flex-col items-center justify-center md:items-start">
+          <p className=" text-center text-gray-400 md:text-start">
+            hello, i am
+          </p>
+          <h2 className="text-center text-4xl font-bold tracking-wider text-white sm:text-5xl md:text-start">
+            Yusri Nelson
+          </h2>
+          <h4 className="text-center text-2xl font-bold tracking-wider text-white sm:text-4xl md:text-start">
+            Junior Web Developer
+          </h4>
+          <p className="max-w-md py-4 text-gray-500 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             quam repudiandae repellat dignissimos iure ratione, quia eius at
             laboriosam eveniet quaerat impedit necessitatibus quos sint. Nemo
@@ -20,20 +58,43 @@ const Home = () => {
             ab?
           </p>
 
-          <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500 cursor-pointer">
-              Portfolio
-              <span className="group-hover:rotate-90 duration-300">
-                <MdKeyboardArrowRight size={25} className="ml-1"/>
+          <div className="flex flex-wrap items-center justify-center">
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+              offset={-80}
+              className={`group ${layout.buttongradient}`}
+            >
+              Projects
+              <span className="duration-300 group-hover:rotate-90">
+                <MdKeyboardArrowRight size={25} className="ml-1" />
               </span>
-            </button>
+            </Link>
+            <div className="xl:hidden ">
+              <ul className="ml-5 flex h-[51px] items-center justify-center rounded-md  ">
+                {links.map(({ id, child, href, download }) => (
+                  <li key={id} className={`bg-grayrounded-md hover:scale-105 text-cyan-400`}>
+                    <a
+                      href={href}
+                      className="flex w-full items-center px-1  sm:px-2"
+                      download={download}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {child}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
         <div>
           <img
             src={heroImage}
             alt="profile"
-            className="rounded-2xl mx-auto w-1/2 md:w-[300px]"
+            className="mx-auto mb-10 w-1/2 rounded-full md:w-[300px]"
           />
         </div>
       </div>

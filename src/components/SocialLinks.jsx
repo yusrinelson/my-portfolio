@@ -1,51 +1,50 @@
-import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
 
-    const links = [
-        {
-          id: 1,
-          child: (
-            <>
-              LinkedIn <FaLinkedin size={30} />
-            </>
-          ),
-          href: "https://www.linkedin.com/in/yusri-nelson/",
-          style: "rounded-tr-md",
-        },
-        {
-          id: 2,
-          child: (
-            <>
-              Github <FaGithub size={30} />
-            </>
-          ),
-          href: "https://github.com/yusrinelson",
-        },
-        {
-            id: 3,
-            child: (
-              <>
-                Mail <HiOutlineMail size={30} />
-              </>
-            ),
-            href: "mailto:yusrinelson17@gmail.com"
-          },
-          {
-            id: 3,
-            child: (
-              <>
-                Resume <BsFillPersonLinesFill size={30} />
-              </>
-            ),
-            href: "/",
-            style: "rounded-br-md",
-            downlaod: true,
-          },
-    ]
+ const links = [
+  {
+    id: 1,
+    child: (
+      <>
+        LinkedIn <FaLinkedin size={30} />
+      </>
+    ),
+    href: "https://www.linkedin.com/in/yusri-nelson/",
+    style: "rounded-tr-md",
+  },
+  {
+    id: 2,
+    child: (
+      <>
+        Github <FaGithub size={30} />
+      </>
+    ),
+    href: "https://github.com/yusrinelson",
+  },
+  {
+    id: 3,
+    child: (
+      <>
+        Mail <HiOutlineMail size={30} />
+      </>
+    ),
+    href: "mailto:yusrinelson17@gmail.com",
+  },
+  {
+    id: 4,
+    child: (
+      <>
+        Resume <BsFillPersonLinesFill size={30} />
+      </>
+    ),
+    href: "/",
+    style: "rounded-br-md",
+    downlaod: true,
+  },
+];
 
   return (
     <div className="hidden xl:flex fixed left-0 top-[35%] flex-col">
