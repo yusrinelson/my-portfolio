@@ -24,7 +24,7 @@ const Projects = () => {
   };
 
   return (
-    <div name="portfolio" className={`${layout.sectionGtoB} text-gray-400`}>
+    <div name="projects" className={`${layout.sectionGtoB} text-gray-400`}>
       <div className={layout.sectionDisplay}>
         <div className="pb-8">
           <p className="text-gray-400">browse my recent</p>
