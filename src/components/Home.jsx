@@ -27,7 +27,7 @@ const Home = () => {
     {
       id: 4,
       child: <BsFillPersonLinesFill size={30} />,
-      href: "/",
+      href: "/resume.pdf",
       style: "rounded-br-md",
       downlaod: true,
     },
@@ -49,13 +49,7 @@ const Home = () => {
             Junior Web Developer
           </h4>
           <p className="max-w-md py-4 text-gray-500 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            quam repudiandae repellat dignissimos iure ratione, quia eius at
-            laboriosam eveniet quaerat impedit necessitatibus quos sint. Nemo
-            aspernatur adipisci rerum inventore ea beatae, aliquam hic
-            distinctio dolorum ipsa quas labore ipsum, corporis, alias
-            voluptates sequi laborum temporibus! Perferendis similique soluta
-            ab?
+          As a Junior Web Developer, I am dedicated to crafting dynamic and compelling web interfaces that captivate users. With a robust proficiency in HTML, CSS, JavaScript, React and various other technologies. I possess the skills to architect responsive and intuitive websites. Committed to continuous growth, I approach challenges with a quick-learning mindset, constantly striving to expand my knowledge base and refine my expertise.
           </p>
 
           <div className="flex flex-wrap items-center justify-center">
@@ -90,11 +84,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div >
+        <div className="flex items-center justify-center">
           <img
             src={heroImage}
             alt="profile"
-            className="mx-auto mb-10 w-1/2 rounded-full md:w-[300px] border-2 border-cyan-600"
+            className="mx-auto mb-10 w-1/2 rounded-full md:w-[300px] border-[1px] sm:border-2 border-cyan-600"
           />
         </div>
       </div>
