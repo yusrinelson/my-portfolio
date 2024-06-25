@@ -27,7 +27,7 @@ const Home = () => {
     {
       id: 4,
       child: <BsFillPersonLinesFill size={30} />,
-      href: "/resume.pdf",
+      href: "/yusri-resume.pdf",
       style: "rounded-br-md",
       downlaod: true,
     },

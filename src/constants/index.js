@@ -34,7 +34,7 @@ export const projects = [
     site: "https://connectify-84e11.web.app/",
     github: "https://github.com/yusrinelson/connectify",
     description:
-      "A beautiful repsonsive Social media webApp that allows users to register or login and post to their feed using readct redux and firebase",
+      "A beautiful repsonsive Social media webApp that allows users to register or login and post to their feed using react redux, tailwind and firebase",
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ export const projects = [
     site: "https://hoobank01landing-page.netlify.app/",
     github: "https://github.com/yusrinelson/modern-bank-app",
     description:
-      "A modern bank landing page. I have created a responsive web app using react and tailwind css.",
+      "I have created a responsive modern landing page using react and tailwind css.",
   },
 
   {
@@ -62,7 +62,7 @@ export const projects = [
     site: "https://gericht01restaurant.netlify.app/",
     github: "https://github.com/yusrinelson/gerich-restaurant",
     description:
-      "This is a responsive restaurant landing page. I have created a responsive web app using react",
+      "This is a responsive restaurant landing page created with react js",
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ export const projects = [
     site: "https://gpt-landing01page.netlify.app/",
     github: "https://github.com/yusrinelson/GPT3_landingPage",
     description:
-      "A modern chatbot landing page. I have created a responsive web app using react.",
+      "A responsive modern chatbot landing page created react js.",
   },
   
 ];
