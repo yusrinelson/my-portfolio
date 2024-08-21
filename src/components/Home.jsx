@@ -1,4 +1,5 @@
-import heroImage from "../assets/heroimage.jpg";
+// import heroImage from "../assets/heroimage.jpg";
+import profile from "../assets/profile2.jpg"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -86,7 +87,7 @@ const Home = () => {
         </div>
         <div className="flex items-center justify-center">
           <img
-            src={heroImage}
+            src={profile}
             alt="profile"
             className="mx-auto mb-10 w-1/2 rounded-full md:w-[300px] border-[1px] sm:border-2 border-cyan-600"
           />
