@@ -7,6 +7,7 @@ import gpt3 from "../assets/demo/gpt3.mp4";
 import connectify from "../assets/demo/connectify.mp4";
 import forevercare from "../assets/demo/forevercare.mp4"
 import PLdataset from "../assets/demo/PLdataset.mp4"
+import EMS from "../assets/demo/EMS.mp4"
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
@@ -47,6 +48,22 @@ export const projects = [
     github: "https://github.com/yusrinelson/python_analysis_project",
     description:
       "I conducted an analysis to check if Home teams have an home advantage when playing other teams in the Premier League. I created this using python with the following libraries: numpy, seaborn and matplotlib",
+  },
+  {
+    id: 10,
+    title: "Eco-Link",
+    src: "asnfkl",
+    site: "https://e-commerce-project-e24b8.web.app/",
+    github: "https://gitlab.com/foreverloops/e-commerce-final-project",
+    description: "I was an a team, in which "
+  },
+  {
+    id: 11,
+    title: "Java Employee Management System",
+    src: EMS,
+    site: "",
+    github: "",
+    description: "This is a simple Employment Management System, that calculates users salary for the month depending on their selected postion and amount of hours worked."
   },
   {
     id: 7,
