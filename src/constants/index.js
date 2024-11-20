@@ -5,6 +5,8 @@ import gerichtRestaurant from "../assets/demo/gerichtRestaurant.mp4";
 import hoobank from "../assets/demo/hoobank.mp4";
 import gpt3 from "../assets/demo/gpt3.mp4";
 import connectify from "../assets/demo/connectify.mp4";
+import forevercare from "../assets/demo/forevercare.mp4"
+import PLdataset from "../assets/demo/PLdataset.mp4"
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
@@ -16,6 +18,8 @@ import nodeImage from "../assets/node.png";
 import figma from "../assets/figma.png";
 import supabase from "../assets/supabase.png";
 import firebase from "../assets/firebase.png"
+import python from "../assets/python.png"
+import java from "../assets/java.png"
 
 export const projects = [
   {
@@ -26,6 +30,23 @@ export const projects = [
     github: "https://github.com/yusrinelson/flix_flare",
     description:
       "I've created a responsive movie web app using the TMDB API which allows users to search for movies, view movie details and watch trailers, incorporating JS, HTML, and CSS. Come and explore the latest movies and TV shows!",
+  },
+  {
+    id: 8,
+    title: "Forevercare",
+    src: forevercare,
+    site: "https://forever-care.netlify.app/",
+    github: "https://github.com/foreverLoops/forevercare-react.git",
+    description:
+      "webapp that allows users to login and and book an appointment with a hospital. I have created this with a 4 other members using react js.",
+  },
+  {
+    id: 9,
+    title: "Python PL dataset",
+    src: PLdataset,
+    github: "https://github.com/yusrinelson/python_analysis_project",
+    description:
+      "I conducted an analysis to check if Home teams have an home advantage when playing other teams in the Premier League. I created this using python with the following libraries: numpy, seaborn and matplotlib",
   },
   {
     id: 7,
@@ -82,7 +103,7 @@ export const projects = [
     description:
       "A responsive modern chatbot landing page created react js.",
   },
-  
+
 ];
 
 export const tech = [
@@ -144,6 +165,18 @@ export const tech = [
     id: 10,
     src: firebase,
     title: "Firebase",
+    style: "shadow-orange-400",
+  },
+  {
+    id: 11,
+    src: python,
+    title: "Python",
+    style: "shadow-blue-400",
+  },
+  {
+    id: 12,
+    src: java,
+    title: "Java",
     style: "shadow-orange-400",
   }
 ];

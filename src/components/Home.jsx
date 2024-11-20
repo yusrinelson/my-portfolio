@@ -47,10 +47,10 @@ const Home = () => {
             Yusri Nelson
           </h2>
           <h4 className="text-center text-2xl font-bold tracking-wider text-cyan-500 sm:text-4xl md:text-start">
-            Junior Web Developer
+            Junior Software Developer
           </h4>
           <p className="max-w-md py-4 text-gray-500 ">
-          As a Junior Web Developer, I am dedicated to crafting dynamic and compelling web interfaces that captivate users. With a robust proficiency in HTML, CSS, JavaScript, React and various other technologies. I possess the skills to architect responsive and intuitive websites. Committed to continuous growth, I approach challenges with a quick-learning mindset, constantly striving to expand my knowledge base and refine my expertise.
+          I am dedicated to crafting dynamic and compelling web interfaces that captivate users. With a robust proficiency in HTML, CSS, JavaScript, React, Node and various other technologies. I possess the skills to architect responsive and intuitive websites. Committed to continuous growth, I approach challenges with a quick-learning mindset, constantly striving to expand my knowledge base and refine my expertise.
           </p>
 
           <div className="flex flex-wrap items-center justify-center">

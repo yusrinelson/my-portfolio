@@ -9,8 +9,8 @@ const About = () => {
           <h2 className={`${layout.sectionHeadText}`}>About Me</h2>
         </div>
         <p className="mt-2 md:text-xl">
-          As a recent graduate from CodeSpace, specializing in software
-          development, with a robust skill set in various programming languages and frameworks. Currently, I am actively pursuing opportunities for a Junior
+          I am an aspiring individual specializing in Software
+          Development, with a robust skill set in various programming languages and frameworks. Currently, I am actively pursuing opportunities for a Junior
           Web Development position where I can leverage my proficiency and
           enthusiasm for learning. As a motivated individual with a proactive
           approach to challenges, I bring strong communication skills and a
