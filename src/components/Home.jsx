@@ -47,7 +47,7 @@ const Home = () => {
           <h2 className="text-center text-4xl font-bold tracking-wider text-white sm:text-5xl md:text-start">
             Yusri Nelson
           </h2>
-          <h4 className="text-center text-2xl font-bold tracking-wider text-cyan-500 sm:text-4xl md:text-start">
+          <h4 className="text-center text-2xl font-bold tracking-wider bg-gradient-to-r from-blue-500 via-blue-400 to-[#00FFF2] bg-clip-text text-transparent sm:text-4xl md:text-start">
           <ReactTyped
             strings={["Junior Software Developer", "UI/UX Designer"]} 
             typeSpeed={50} 
