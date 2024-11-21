@@ -1,11 +1,12 @@
 // import heroImage from "../assets/heroimage.jpg";
-import profile from "../assets/profile2.jpg"
+import profile from "../assets/profile3.png"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { layout } from "./style";
+import { ReactTyped } from "react-typed";
 
 const Home = () => {
   const links = [
@@ -47,7 +48,12 @@ const Home = () => {
             Yusri Nelson
           </h2>
           <h4 className="text-center text-2xl font-bold tracking-wider text-cyan-500 sm:text-4xl md:text-start">
-            Junior Software Developer
+          <ReactTyped
+            strings={["Junior Software Developer", "UI/UX Designer"]} 
+            typeSpeed={50} 
+            backSpeed={30} 
+            loop 
+          />
           </h4>
           <p className="max-w-md py-4 text-gray-500 ">
           I am dedicated to crafting dynamic and compelling web interfaces that captivate users. With a robust proficiency in HTML, CSS, JavaScript, React, Node and various other technologies. I possess the skills to architect responsive and intuitive websites. Committed to continuous growth, I approach challenges with a quick-learning mindset, constantly striving to expand my knowledge base and refine my expertise.
@@ -89,7 +95,7 @@ const Home = () => {
           <img
             src={profile}
             alt="profile"
-            className="mx-auto mb-10 w-1/2 rounded-full md:w-[300px] border-[1px] sm:border-2 border-cyan-600"
+            className="mx-auto mb-10 w-1/2 rounded-full md:w-[300px] border-[1px] sm:border-2 border-cyan-600 bg-gray-500"
           />
         </div>
       </div>
