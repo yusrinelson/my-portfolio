@@ -1,7 +1,6 @@
 import { projects } from "../constants";
 import { layout } from "./style";
 import { useState } from "react";
-``;
 const Projects = () => {
   const [showDescription, setShowDescription] = useState(null);
 
@@ -34,6 +33,7 @@ const Projects = () => {
             Projects
           </p>
         </div>
+        
 
         <div className="sm:px7 md:12px grid gap-8  px-0 sm:grid-cols-2 sm:px-0 ">
           {projects.map(({ id, src, site, github, title, description }) => (
