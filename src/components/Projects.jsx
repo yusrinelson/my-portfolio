@@ -62,7 +62,7 @@ const Projects = () => {
                 <button className={layout.projectButton}>
                   <p>
                     <a href={site} target="_blank" rel="noreferrer">
-                      Website
+                      webapp
                     </a>
                   </p>
                 </button>
