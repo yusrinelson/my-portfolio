@@ -10,8 +10,7 @@ const About = () => {
         </div>
         <p className="mt-2 md:text-xl">
           I am an aspiring individual specializing in Software
-          Development, with a robust skill set in various programming languages and frameworks. Currently, I am actively pursuing opportunities for a Junior
-          Web Development position where I can leverage my proficiency and
+          Development, with a robust skill set in various programming languages and frameworks. Currently, I am actively pursuing opportunities for a Junior Development position where I can leverage my proficiency and
           enthusiasm for learning. As a motivated individual with a proactive
           approach to challenges, I bring strong communication skills and a
           collaborative mindset to any team environment. My adaptability and
