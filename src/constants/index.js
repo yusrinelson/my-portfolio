@@ -36,7 +36,7 @@ export const projects = [
     id: 8,
     title: "Forevercare",
     src: forevercare,
-    site: "https://forever-care.netlify.app/",
+    site: "https://forevercare01.netlify.app/",
     github: "https://github.com/foreverLoops/forevercare-react.git",
     description:
       "webapp that allows users to login and and book an appointment with a hospital. I have created this with a 4 other members using react js.",
