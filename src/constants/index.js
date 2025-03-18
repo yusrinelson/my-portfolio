@@ -8,6 +8,8 @@ import connectify from "../assets/demo/connectify.mp4";
 import forevercare from "../assets/demo/forevercare.mp4"
 import PLdataset from "../assets/demo/PLdataset.mp4"
 import EMS from "../assets/demo/EMS.mp4"
+import adminPortal from "../assets/demo/adminPortal.mp4"
+import clothingStore from "../assets/demo/clothingStore.mp4"
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
@@ -119,7 +121,25 @@ export const projects = [
     github: "https://github.com/yusrinelson/GPT3_landingPage",
     description:
       "A responsive modern chatbot landing page created react js.",
+  },    
+  {
+    id: 13,
+    title: "Admin Portal",
+    src: adminPortal,
+    site: "https://admin-fullstack-ecommerce-mern-9v7l9s2my-yusri-nelsons-projects.vercel.app/",
+    github: "https://github.com/yusrinelson/admin-fullstack-ecommerce-MERN",
+    description: "An admin portal that allows users to add products which is then displayed on the E-commerce store. I have created this using React JS, Node.js, MongoDB and Tailwind CSS.",
   },
+  {
+    id: 12,
+    title: "Clothing Store",
+    src: clothingStore,
+    site: "https://frontend-fullstack-ecommerce-mern-kfp0vevup.vercel.app/",
+    github: "https://github.com/yusrinelson/frontend-fullstack-ecommerce-MERN",
+    description:
+      "This is a responsive clothing store created with React JS, Node.js MongoDB and Tailwind CSS.",
+  }
+  
 
 ];
 
