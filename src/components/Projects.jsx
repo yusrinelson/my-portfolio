@@ -3,6 +3,7 @@ import { layout } from "./style";
 import { useState } from "react";
 const Projects = () => {
   const [showDescription, setShowDescription] = useState(null);
+  const [failedVideos, setFailedVideos] = useState({});
 
 
 
@@ -22,6 +23,11 @@ const Projects = () => {
     setShowDescription(showDescription === id ? null : id);
   };
 
+  const handleVideoError = (id) => {
+    setFailedVideos((prev) => ({ ...prev, [id]: true }));
+  };
+
+
   return (
     <div name="projects" className={`${layout.sectionGtoB} text-gray-400`}>
       <div className={layout.sectionDisplay}>
@@ -39,14 +45,23 @@ const Projects = () => {
           {projects.map(({ id, src, site, github, title, description }) => (
             <div key={id} className="rounded-lg shadow-md shadow-gray-600 ">
               <div className="relative">
-                <video
-                  src={src}
-                  alt=""
-                  controls
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
-                  className="rounded-md duration-200 hover:scale-105 "
-                />
+                {!failedVideos[id] ? (
+                  <video
+                    src={src}
+                    controls
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                    onError={() => handleVideoError(id)}
+                    className="rounded-md duration-200 hover:scale-105"
+                  />
+                ) : (
+                  <img
+                    src={src}
+                    alt={title}
+                    className="rounded-md duration-200 hover:scale-105 h-[270px] w-full"
+                  />
+                )}
+
                 {showDescription === id && (
                   <div className="scale-in-center scale-in-center absolute top-0 min-h-[100%] w-full rounded-md bg-black/90 p-4 text-center text-white ">
                     <h5 className="font-bold lg:mb-6">{title}</h5>
